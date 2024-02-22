@@ -1,3 +1,10 @@
+This is the work done for the module of upgradable smart contracts.
+It has been with the help of openzeppelin contracts.
+Installed v5.x instead of 4.8.3 as the makefile of Patrick was taken over, reported and solved btw
+
+The UUPSUpgradable contract needs to have an added function called transferTo (it is missing in v5.x) 
+And an extra parameter has been removed when _upgradeToAndCallUUPS is called (removed boolean false)
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
